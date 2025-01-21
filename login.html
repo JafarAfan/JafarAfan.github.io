@@ -2,30 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        .circle{
+           border: 1px solid #000;
+           height: 70px;
+           width: 70px;
+           border-radius: 50%;
+           margin: 0 auto;
+           position: relative;
+           bottom: -25px;
+           
+        }
+        .box{
+            border: 1px solid #000;
+            height: 100px;
+            width: 155px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-    
-
-    <form action=""method="get">
-        Prodi :
-        <select name="prodi"id="">
-            <option value="TI">Teknik Informatika</option>
-            <option value="SI">Sistem Informasi</option>
-        </select> <br>
-        Tanggal Lahir :
-        <input type="date" name="tanggal_lahir"> <br>
-        jenis kelamin :
-        <input type="radio" name="jk" value="Pria"> Pria
-        <input type="radio" name="jk" value="Wanita"> Wanita
-        <br>
-        Email : <input type="email" name="email" > <br>
-        Telepon : <input type="tel" name="telepon" > <br>
-        foto : <input type="file" accept="image/*" name="photo"> <br>
-
-        
-    </form>
+    <div class="container">
+         <div class="circle"></div>
+         <div class="box">
+              <p>nama</p>
+              <p>nim</p>
+         </div>
+              
 </body>
 </html>
